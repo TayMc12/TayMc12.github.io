@@ -1,126 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/main.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spore & Co. | Wild, Dried, and Full of Life</title>
+  <!-- Link to our CSS in the styles folder -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- Google Fonts: Example using 'Poppins' -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" 
+    rel="stylesheet"
+  >
 </head>
 <body>
-
-  <header>
-    <nav class="main-nav">
-      <div class="logo">Taylor McNicol</div>
+  <!-- Header -->
+  <header class="container">
+    <h1>Spore & Co.</h1>
+    <p>Wild, Dried, and Full of Life</p>
+  </header>
+  
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
       <ul>
-        <li><a href="#hero">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#products">Products</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </nav>
-  </header>
-
-  <main>
-    <!-- Hero / Home Section -->
-    <section id="hero" class="hero">
-      <h1>Hello, I’m <span class="highlight">Taylor</span></h1>
-      <p>I’m a Quality Assurance Analyst who excels in agile testing, technical troubleshooting, and client-focused support, ensuring exceptional user satisfaction.</p>
-      <a class="btn" href="#projects">View My Work</a>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I’m a results-driven and client-focused QA professional with experience across software testing, application support, and technical troubleshooting. I have a strong understanding of the SDLC and Agile methodologies, adept at diagnosing complex issues and collaborating with technical teams to deliver high-quality solutions.</p>
-      <p>Outside of work, I enjoy fictional writing, reading, and exploring the latest developments in technology and AI to continually broaden my skill set and perspectives.</p>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience">
-      <h2>Experience</h2>
-      <div class="experience-list">
-        <article class="experience-item">
-          <h3>Quality Assurance Analyst (CTFL-AT, MBCS) - Caseware</h3>
-          <span class="timeframe">APR 2022 - MAY 2024 | Maidstone/WFH</span>
-          <p>Served as a first-line software tester for web and desktop product suites in an Agile environment. Created and updated test cases, ran manual tests, reported issues via JIRA, and collaborated closely with developers and product owners. Supported seamless deployments for high-profile clients including Ernst & Young.</p>
-        </article>
-
-        <article class="experience-item">
-          <h3>Technical Support Analyst - Caseware</h3>
-          <span class="timeframe">OCT 2020 - APR 2022 | Maidstone/WFH</span>
-          <p>Provided technical support for bespoke desktop and cloud products, diagnosing complex licensing, synchronization, and network issues. Operated in a client-focused setting, often reprioritizing tasks to meet evolving user needs. Recognized as “Support Member of the Month” in February 2021.</p>
-        </article>
-
-        <article class="experience-item">
-          <h3>Kitchen Associate - JD Wetherspoon</h3>
-          <span class="timeframe">OCT 2023 - PRESENT | Part-Time</span>
-          <p>Worked in a high-stress kitchen environment where communication, adaptability, and maintaining quality standards were critical.</p>
-        </article>
-
-        <article class="experience-item">
-          <h3>Technical Support Advisor (Temporary) - Bose Limited</h3>
-          <span class="timeframe">NOV 2017 - AUG 2018 | Chatham Dockside</span>
-          <p>Part of a large support team assisting UK and Ireland customers. Developed strong communication and collaboration skills to meet Bose’s standards of technical excellence and customer satisfaction.</p>
-        </article>
+    </div>
+  </nav>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <div>
+        <h2>Welcome to Spore & Co.</h2>
+        <p>Discover the natural goodness of our dried mushrooms</p>
+        <a href="#products" class="hero-btn">Shop Now</a>
       </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education">
-      <h2>Education</h2>
-      <div class="education-list">
-        <article class="education-item">
-          <h3>The University of Kent</h3>
-          <span class="timeframe">SEP 2015 - JUN 2020 | Canterbury</span>
-          <p>BSc in Computer Science (2:2). Involved in team projects and gained experience in programming, databasing, communication, and adaptability.</p>
-        </article>
-
-        <article class="education-item">
-          <h3>The Thomas Aveling School</h3>
-          <span class="timeframe">SEP 2013 - JUN 2015 | Rochester</span>
-          <p>Level 3 Information Technology (Distinction), Level 3 Business Studies (Double Distinction*). Developed foundational skills in IT, web development, business tactics, and project outcomes.</p>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about" class="about container">
+    <h2>About Us</h2>
+    <p>We grow our mushrooms at home with care and passion. Our dried mushrooms are perfect for both culinary and medicinal uses.</p>
+  </section>
+  
+  <!-- Products Section -->
+  <section id="products" class="products container">
+    <h2>Our Products</h2>
+    <div class="product-list">
+      <div class="product">
+        <h3>Dried Oyster Mushrooms</h3>
+        <p>Rich in flavor and perfect for your favorite dishes.</p>
       </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-      <h2>Projects</h2>
-      <p>Below are examples of my work from previous roles and personal initiatives.</p>
-      <div class="project-grid">
-        <article class="project-item">
-          <img src="images/project1-thumbnail.jpg" alt="Project 1 Screenshot">
-          <h3>Project One</h3>
-          <p>A dynamic landing page showcasing a modern product suite. Focused on ensuring compatibility, usability, and seamless performance.</p>
-          <a href="#" target="_blank">View Project</a>
-        </article>
-
-        <article class="project-item">
-          <img src="images/project2-thumbnail.jpg" alt="Project 2 Screenshot">
-          <h3>Project Two</h3>
-          <p>A web application aimed at streamlining testing workflows. Contributed QA insights, ensuring robust performance and user satisfaction.</p>
-          <a href="#" target="_blank">View Project</a>
-        </article>
+      <div class="product">
+        <h3>Dried Shiitake Mushrooms</h3>
+        <p>Ideal for soups, stir-fries, and adding umami to meals.</p>
       </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>If you’re interested in working together or learning more about my experience, feel free to reach out.</p>
-      <p>Email: <a href="mailto:tsmcnicol001@gmail.com">tsmcnicol001@gmail.com</a></p>
-      <p>Phone: 07928 594025</p>
-      <p>Location: Rochester, Kent</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2024 Taylor McNicol. All rights reserved.</p>
+      <div class="product">
+        <h3>Dried Lion’s Mane</h3>
+        <p>Boost your brain health naturally with our premium dried Lion’s Mane.</p>
+      </div>
+      <div class="product">
+        <h3>Dried Reishi</h3>
+        <p>Support your immune system and well-being with our dried Reishi.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="contact container">
+    <h2>Contact Us</h2>
+    <p>Email: info@sporeandco.co.uk</p>
+    <p>Phone: 01234 567890</p>
+    <p>Address: 123 Mushroom Lane, Fungi Town, UK</p>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Spore & Co. All Rights Reserved.</p>
   </footer>
-
-  <script src="scripts/main.js"></script>
 </body>
 </html>
